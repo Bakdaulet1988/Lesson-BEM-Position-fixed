@@ -1,0 +1,182 @@
+.header__container {
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f2;
+    z-index: 100;
+}
+
+.header__category {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.header__category-logo {
+    display: flex;
+}
+
+.header__category-nav {
+    margin-right: 20px;
+}
+
+.catergories {
+    display: flex;
+    list-style: none;
+}
+
+.catergories-item {
+padding: 0 10px;
+}
+
+.categories__link {
+    color: black;
+    font-size: 14px;
+    position: relative;
+    padding-right: 7px;
+}
+
+.categories__link--special {
+    color: #46ac4a;
+    font-weight: 700;
+}
+
+.categories__link--special::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(https://files.prodengi.kz/assets/prodengi/2744626117-1674226829.svg) no-repeat;
+    top: -2px;
+    left: -22px;
+}
+
+.header__category__logout-search {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 4px;
+}
+
+.categories__link--new::before {
+    content: "new";
+    font-size: 10px;
+    color: #fff;
+    background-color: #46ac4a;
+    border-radius:3px;
+    position: absolute;
+    top: -12px;
+    right: -3px;
+    transform: rotate(10deg);
+    padding: 3px;
+    line-height: 1;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+select {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+option {
+    cursor: pointer;
+}
+
+.button_fixed {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 65px;
+    height: 65px;
+    box-shadow:0px 5px 25px rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main__header__top-title {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 90px;
+    color: #bdbdbd;
+    font-weight: 600;
+    padding: 0 15px;
+}
+
+.main__header {
+    padding: 10px 0;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main__header-container {
+    display: flex;
+}
+
+.main__header-content{
+    width: 850px;
+}
+
+.main__header-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #46ac4a;
+    font-size: 26px;
+}
+
+.main__header-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.main__header-offer .main__header-btn {
+    font-family: 'Montserrat', sans-serif;
+    height: 48px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    background-color: #46ac4a;
+    border: 1px solid #46ac4a;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    padding: 0px 40px 0px 40px;
+}
+
+.main__header-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #007ee3;
+}
+
+.main__header-offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__header-animation {
+    width: 1000px;
+}
+
+.main__header-content {
+    display: flex;
+    align-items: center;
+}

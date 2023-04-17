@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    max-width: 1140px;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.footer__top-box {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #d9e1e6; 
+    padding-top: 40px;
+}
+
+.footer__logo {
+    flex: 1;
+}
+
+.footer__partners {
+    flex: 2;
+}
+
+.footer__help {
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer__partners .footer__title  {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer__partners .footer__partners-item {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #6a7481;
+}
+
+.footer__help .footer__title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer__help .footer__help-item a {
+    font-size: 14px;
+    color: #6a7481;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer__help .footer__help-item {
+    margin-top: 8px;
+}
+
+.footer__bottom-box  {
+    display: flex;
+    margin-top: 30px;
+    padding: 30px 0 0 0;
+    border-top: 1px solid #d9e1e6; 
+}
+
+.footer__bottom-box .footer__terms-of-use {
+    margin-right: 40px;
+    font-size: 14px;
+    color: #6a7481;
+    text-decoration: underline;
+}
+
+.footer__bottom-box .footer__check-police {
+    font-size: 14px;
+    color: #6a7481;
+    text-decoration: underline;
+}
+
+.footer__bottom-box .footer__rights {
+    margin-left: auto;
+    font-size: 14px;
+    color: #6a7481;
+}
+
+@media (max-width: 767px) {
+    .footer__logo {
+        flex: none;
+        width: 100%;
+    }
+    .footer__top-box, .footer__bottom-box {
+        flex-wrap: wrap;
+    }
+    .footer__terms-of-use, .footer__check-police {
+        width: 50%;
+    }
+    .footer__bottom-box .footer__terms-of-use {
+        margin-right: 0;
+    }
+    .footer__bottom-box .footer__rights {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer__top-box {
+        flex-direction: column;
+    }
+    .footer__bottom-box {
+        flex-direction: column;
+        margin-top: 0;
+    }
+}
